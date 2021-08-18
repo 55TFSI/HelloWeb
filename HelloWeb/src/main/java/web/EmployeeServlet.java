@@ -174,6 +174,7 @@ public class EmployeeServlet extends HttpServlet {
 	}
 	private void modify(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		boolean flag = false;
+		int empId = Integer.parseInt(request.getParameter("empId"));
 		String empName = request.getParameter("empName");
 		String empTitle = request.getParameter("empTitle");
 		
@@ -191,6 +192,7 @@ public class EmployeeServlet extends HttpServlet {
 		emp.setEmp_salary(empSalary);
 		emp.setEntry_date(entryDate);
 		emp.setGroup(group);
+		emp.setEmp_id(empId);
 		
 		EmployeeService empServ = new EmployeeServiceImpl();
 		

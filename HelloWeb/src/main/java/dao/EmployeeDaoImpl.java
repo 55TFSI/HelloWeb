@@ -195,9 +195,9 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		
 		if(connection != null) {
 			
-			String sql = "Update employee SET emp_name = ?, emp_title = ?, emp_salary = ?, entry_date = ?, group = ?";
+			String sql = " UPDATE employee SET emp_name = ?, emp_title = ?, emp_salary = ?, entry_date = ? WHERE emp_id = ?";
 			
-			Object[] params = {employee.getEmp_name(),employee.getEmp_title(),employee.getEmp_salary(),employee.getEntry_date(),employee.getGroup()};
+			Object[] params = {employee.getEmp_name(),employee.getEmp_title(),employee.getEmp_salary(),employee.getEntry_date(),employee.getEmp_id()};
 			
 			flag = BaseDao.execute(connection, preparedStatement, sql, params);
 			

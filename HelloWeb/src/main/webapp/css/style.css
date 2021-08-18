@@ -235,7 +235,9 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
 }
 
 .providerAdd form {
-
+    border: 1px solid #9ac70f;
+    padding: 20px;
+    margin: 20px;
 }
 
 .providerAdd div {

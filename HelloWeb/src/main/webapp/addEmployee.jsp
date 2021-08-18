@@ -5,7 +5,7 @@
 
 <div class="right">
 
-	<div class="AddEmployee">
+	<div class ="providerAdd">
 		<form id="employeeForm" name="employeeForm" method="post"
 			action="${pageContext.request.contextPath}/employee.do">
 			
@@ -47,7 +47,7 @@
 				<input type="submit" name="add" id="add" value="Add"> 
 				
 				<input
-					type="button" id="back" name="back" value="Return">
+					type="Reset" id="reset" name="reset" value="reset">
 			</div>
 		</form>
 	</div>

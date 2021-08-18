@@ -33,8 +33,8 @@
 		<th width="20%">Employee name</th>
 		<th width="10%">Employee title</th>
 		<th width="10%">Employee salary</th>
-		<th width="10%">Employee group</th>
 		<th width="10%">Entry date</th>
+		<th width="10%">group</th>
 		<th width="30%">operations</th>
 	</tr>
 	<c:forEach var="employee" items="${ employeelist }" varStatus="status">
@@ -49,7 +49,7 @@
 			
 			<td>
 			     <span><a class="modifyEmployee"
-					href="${pageContext.request.contextPath}/modifyEmployee.jsp?empId= ${employee.emp_id}&empName=${employee.emp_name}&empTitle=${employee.emp_title}&empSalary=${employee.emp_salary}&entryDate=${emp.entry_date}&group=${emp.group}">
+					href="${pageContext.request.contextPath}/modifyEmployee.jsp?empId=${employee.emp_id}&empName=${employee.emp_name}&empTitle=${employee.emp_title}&empSalary=${employee.emp_salary}&entryDate=${employee.entry_date}&group=${employee.group}">
 					
 					<img
 						src="${pageContext.request.contextPath }/images/modify.png"

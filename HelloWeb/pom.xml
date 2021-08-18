@@ -6,6 +6,7 @@
   <groupId>com.rakuten</groupId>
   <artifactId>HelloWeb</artifactId>
   <packaging>war</packaging>
+  
   <version>0.0.1-SNAPSHOT</version>
   <name>HelloWeb Maven Webapp</name>
   <url>http://maven.apache.org</url>

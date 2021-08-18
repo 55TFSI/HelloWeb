@@ -11,7 +11,7 @@
 <body class="login_bg">
     <section class="loginBox">
         <header class="loginHeader">
-            <h1>HelloWeb:v1</h1>
+            <h1>HelloWeb:v2</h1>
         </header>
         <section class="loginCont">
             <form class="loginForm" action="login"  name="actionForm" id="actionForm"  method="post" >

@@ -5,7 +5,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>HelloWeb:v1</title>
+    <title>HelloWeb:v2</title>
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/style.css" />
 </head>
 <body class="login_bg">
